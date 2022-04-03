@@ -6,7 +6,7 @@
 /*   By: manavarr <manavarr@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/03/30 19:39:16 by manavarr          #+#    #+#             */
-/*   Updated: 2022/04/02 17:21:58 by manavarr         ###   ########.fr       */
+/*   Updated: 2022/04/03 14:00:15 by manavarr         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,7 +19,7 @@ char	*ft_strncat(char *dest, char *src, unsigned int nb)
 
 	n = 0;
 	c = 0;
-	while ((dest[n] != '\0') && (c < nb))
+	while (dest[n] != '\0')
 	{
 		n++;
 	}
