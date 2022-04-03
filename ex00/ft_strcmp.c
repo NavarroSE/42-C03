@@ -6,7 +6,7 @@
 /*   By: manavarr <manavarr@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/03/29 20:31:47 by manavarr          #+#    #+#             */
-/*   Updated: 2022/03/31 16:33:40 by manavarr         ###   ########.fr       */
+/*   Updated: 2022/04/03 11:46:58 by manavarr         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,13 +19,10 @@ int	ft_strcmp(char *s1, char *s2)
 
 	c = 0;
 	ret = 0;
-	while ((s1[c] != '\0' || s2[c] != '\0'))
+	while ((s1[c] != '\0' || s2[c] != '\0') && (s1[c] == s2[c]))
 	{
-		if (s1[c] < s2[c])
-			ret--;
-		else if (s1[c] > s2[c])
-			ret++;
 		c++;
 	}
+	ret = s1[c] - s2[c];
 	return (ret);
 }
