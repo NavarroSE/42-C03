@@ -6,13 +6,13 @@
 /*   By: manavarr <manavarr@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/03/30 21:06:22 by manavarr          #+#    #+#             */
-/*   Updated: 2022/04/03 19:11:31 by manavarr         ###   ########.fr       */
+/*   Updated: 2022/04/03 23:08:49 by manavarr         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <stdio.h>
 
-int	ft_strlen(char *str)
+unsigned int	ft_strlen(char *str)
 {
 	unsigned int	temp;
 
